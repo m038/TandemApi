@@ -1,0 +1,15 @@
+MONGO_HOST = 'localhost'
+MONGO_PORT = 27017
+MONGO_DBNAME = 'tandam'
+URL_PREFIX = 'api'
+API_VERSION = 'v1'
+TWILIO_ACCOUNT_SID = ''
+TWILIO_AUTH_TOKEN = ''
+TWILIO_APP_SID = ''
+TWILIO_PHONE = ''
+DOMAIN = {
+    'users': {},
+    'questions': {},
+    'answers': {},
+    'comments': {}
+}

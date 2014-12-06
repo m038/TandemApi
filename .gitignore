@@ -16,8 +16,10 @@ coverage
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
 
-# Compiled binary addons (http://nodejs.org/api/addons.html)
-build/Release
+build
+build/*
+dist
+dist/*
 
 # Dependency directory
 # Commenting this out is preferred by some people, see
@@ -26,3 +28,9 @@ node_modules
 
 # Users Environment Variables
 .lock-wscript
+
+tandem_api/settings.py
+**.pyc
+**~
+*.egg-info
+

@@ -1,0 +1,1 @@
+gunicorn -D -p tandem.pid -b 127.0.0.1:5000 --access-logfile gunicorn.access.log tandem_api:app
