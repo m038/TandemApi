@@ -1,4 +1,4 @@
-TandemApp
+TandemApi
 =========
 
 automated language tandem partner
